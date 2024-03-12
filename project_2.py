@@ -24,11 +24,13 @@ total_gal = tot / 10
 
 if code == "R":
     total = (total_gal*0.0005) + 5
+
 elif code == "C":
     if total_gal <= 4000000:
         total = 1000
     else:
         total = (total_gal*0.00025)+1000
+
 elif code == "I":
     if total_gal < 4000000:
         total = 1000
